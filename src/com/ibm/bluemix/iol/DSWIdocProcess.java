@@ -17,8 +17,9 @@ public class DSWIdocProcess {
 	@Produces("application/json")
 	@Consumes("application/xml")
 	public String proccess(String file) throws Exception, IOException {
+		String version = "ESH BlueMix Version 1.0:";
 		
-		System.out.println("DSW Idoc Process Started!");
+		System.out.println(version + "DSW Idoc Process Started!");
 		
 		//System.out.println("Data: requestFile[" + requestFile + "]");
 		
